@@ -1,0 +1,102 @@
+body {
+    margin: 40px;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.nav-bar-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+li a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+/* circular profile image */
+#profile img {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* grid boxes layout */
+.a {
+    grid-column: 1 / span 3;
+}
+
+.b {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+}
+
+.c {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.d {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.e {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+}
+
+.f {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+}
+
+.g {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+}
+
+h1 {
+    font-family: "Playfair Display";
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.experience-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.details {
+    display: none;
+}
+
+/* .experience-item:target .details {
+    display: block;
+} */
